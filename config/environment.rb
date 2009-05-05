@@ -79,7 +79,7 @@ Rails::Initializer.run do |config|
   config.gem 'RedCloth', :version => '3.0.4', :lib => 'redcloth'
   config.gem 'BlueCloth', :version => '>= 1.0.0', :lib => 'bluecloth'
   config.gem 'rubyzip', :version => '>= 0.9.1', :lib => 'zip/zipfilesystem'
-  config.gem 'liquid', :version => '>= 1.9.0'
+  config.gem 'liquid', :version => '>= 2.0.0'
   config.gem 'will_paginate', :version => '>= 2.2.2'
   config.gem 'mocha', :version => '>= 0.9.3'
   config.gem 'coderay', :version => '>= 0.8.260'
