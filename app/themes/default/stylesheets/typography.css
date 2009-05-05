@@ -1,0 +1,21 @@
+/*
+-----------------------------------------------
+Site Typography Styles
+Author:   Elina Kamaeva
+Version:  1 May 2009
+----------------------------------------------- */
+
+/* @group headers and texts */
+html {font-size: 62.5%; font-family: Verdana, Arial, Helvetica, sans-serif;}
+body {font-size: 1em; line-height: 1.2em; color: #000;}
+
+h2 {font-size: 1.6em; line-height: 1em; margin-bottom: 1em;}
+h3 {font-size: 1.4em; line-height: 1.2em; margin-bottom: .5em;}
+h4 {font-size: 1.2em; line-height: 1.2857142857142858em;	margin-bottom: .5em;}
+p, ul, blockquote, pre, td, th, label {font-size: 1.2em; line-height: 1.2em; margin-bottom: 1em}
+.small {font-size: 0.8333333333333334em; line-height: 1.8em; margin-bottom: 1.8em;}
+
+a {color: #03f;} a:hover {color: #999; text-decoration: none;}
+h2 a, h3 a, h4 a {color: #000; text-decoration:none;} h2 a:hover, h3 a:hover, h4 a:hover {text-decoration:underline;}
+
+/* @end */

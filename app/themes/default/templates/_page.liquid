@@ -3,6 +3,8 @@
 
 <ul>
 {% for page in section.pages %}
+  {% if forloop.index > 1 %}
   <li>{{ page | link_to_page }}</li>
+  {% endif %}
 {% endfor %}
 </ul>

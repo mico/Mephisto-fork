@@ -1,0 +1,38 @@
+/*
+-----------------------------------------------
+Site Design Styles
+Author:   Elina Kamaeva
+Version:  5 June 2008
+----------------------------------------------- */
+
+.b1 {border: 1px dashed #ccc;}
+.b0 {border: 0;}
+.cw {color:white;}
+.cb {color: #000;}
+.clg {color: #999;}
+.cgreen {color: #090;}
+.cred {color: #c00;}
+.cblue {color: #03f;}
+
+.tcaps {text-transform: uppercase;}
+
+.bgw {background-color: white;}
+
+.mt10 {margin-top: 10px;}
+
+#right-column .b0 {border: 0;}
+
+#inner .ico {border: 0;}
+
+.m20-0-10 {margin: 20px 0 10px 0;}
+.mlr5 {margin: 0 5px;}
+
+.ml10 {margin-left: 10px;}
+.mt5 {margin-top: 5px}
+
+.mrl20 {margin-right: 20px; margin-left: 20px;}
+*html .mrl20 {margin-right: 15px; margin-left: 15px;}
+
+.w380 {width:370px;}
+.w300 {width:292px;}
+

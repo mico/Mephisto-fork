@@ -1,0 +1,64 @@
+/*
+-----------------------------------------------
+Site Layout Styles
+Author:   Elina Kamaeva
+Version:  1 May 2008
+----------------------------------------------- */
+
+/* @group common */
+* {margin: 0; padding: 0;}
+html, body {height: 100%; text-align: center;}
+#all {position: relative; height: 100%; width: 100%; text-align: center;}
+html>body #all {height: auto; min-height: 100%;}
+#main {width: 970px; margin: auto; overflow: hidden;}
+
+table {border-collapse: collapse; font-size: .8em;}
+
+
+legend {font: small-caps 2em Georgia,Times New Roman; margin-left:-5px; padding:0 5px; color: #868686;}
+fieldset {border: 1px solid #ccc; margin-bottom:20px; padding:10px;}
+	fieldset p {font-size:1em;}
+label {margin-right:10px;}
+input {height: 18px; width:290px; padding: 2px 0 0 2px; border: 1px solid #868686; vertical-align: middle;}
+button, input.button {height: 22px;}
+input.button {background-color: #8f8f8f; color: white; padding: 0 0 2px 2px; text-align: center; line-height: 1em; width:100px;}
+select, input, textarea {font-size:1em; margin:2px 0;}
+textarea {width:100%;}
+
+img {border:0;}
+
+div {border: 0px dashed red; text-align:left; width:100%}
+.fleft {float: left}
+.fright {float: right}
+.nobr {white-space: nowrap}
+.tc {text-align:center;}
+.tr {text-align:right;}
+.tb {font-weight:bold;}
+.caps {text-transform:uppercase;}
+.clear {clear: both; height:1px; line-height:1px; font-size:1px;}
+
+ul {list-style-type: circle; margin: 0 0 1em 15px;}
+ol {margin: 0 0 1em 20px;}
+/* @end */
+
+/* @group Header */
+#header {height: 180px;}
+#logo {float: left; width: 170px; height: 170px;} 
+	#logo a {text-decoration: none;}
+	#logo h1 {text-indent: -1900px; background: url(/images/hosital.gif) bottom left no-repeat; height: 170px;}
+		#logo h1 a {width: 170px; height: 170px; float: left;}	
+/* @end */
+
+#content {width: 700px; float:left;}
+#right-column {width:240px; float:right;}
+#photo {background:#eee; height:400px;}
+.hi {margin-top:20px; background:#eee; height: 120px}
+
+/* @group footer */
+#empty {height: 56px;}
+#footer {position: absolute; bottom: 0; height: 55; font-size: 85%; color: #868686; border-top: 1px solid #ccc;padding-top:10px; margin-top:15px;}
+	#footer p { margin: auto; margin-bottom:5px; width: 960px;}
+	#footer a {color: #868686;} 
+		#footer a:hover {color: #03f;}
+	#footer a.fright {text-decoration: none; display: block;}
+/* @end */

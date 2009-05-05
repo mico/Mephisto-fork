@@ -1,0 +1,12 @@
+#content {}
+	#content img.pic {padding: 5px; border: 1px solid #ccc; float: left; margin: 0 10px 5px 0;}
+		#content img.small {padding: 3px; margin: 0 7px 5px 0;}
+	#content .anons {clear:both; overflow: hidden; margin-bottom:10px;}
+		#content .anons a {text-decoration: none}
+			#content .anons a.hover {text-decoration: underline}
+		#content .anons p a {color: #000} 
+			#content .anons p a:hover {color: #ccc}
+	
+	.text {margin-bottom:20px; overflow: hidden;}		
+	.photos {float: left; width: 260px;}
+	.src {color: #03f; text-decoration: underline;}

@@ -1,0 +1,54 @@
+/*
+-----------------------------------------------
+Site Print Styles
+Author:   Elina Kamaeva
+Version:  31 May 2008
+----------------------------------------------- */
+
+body {
+margin:.5in .75in;
+padding:0;
+font:small Verdana,Sans-serif;
+}
+
+/* =Headings
+----------------------------------------------- */
+h1, h2, h3 {
+margin:1em 0 .5em;
+font-family:Georgia,Serif;
+font-weight:normal;
+clear:both;
+}
+h1 {
+margin-top:.5em;
+font-size:180%;
+}
+h2 {
+font-size:180%;
+}
+h3 {
+font-size:125%;
+}
+/* =Links
+----------------------------------------------- */
+a {
+color:black;
+text-decoration:none;
+}
+a img {
+border-width:0;
+}
+/* =etc(text margin ....)
+----------------------------------------------- */
+
+.slider, .date, .nav {display: none}
+#header {height: 90px;}
+#header #logo {height: 90px}
+#content {background:none;}
+#main {border-width: 0;}
+#footer p {font-size: 11px}
+#inner {width: 940px}
+
+@media handheld { /*стиль для кпк*/
+#main {width: 240px;}
+}
